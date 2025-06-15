@@ -1,0 +1,56 @@
+<main>
+    <form action="#" method="post">
+        <h2>Formulari de Contacte</h2>
+        
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required placeholder="Insertar el teu nom">
+
+        <label for="email">Correu Electrònic:</label>
+        <input type="email" id="email" name="email" required placeholder="nomdecorreu@correu.com">
+
+        <label for="edat">Edat:</label>
+        <input type="number" id="edat" name="edat" min="1" max="100">
+
+        <label for="data_naixement">Data de naixement:</label>
+        <input type="date" id="data_naixement" name="data_naixement">
+
+        <label for="colorfavorit">Color favorit:</label>
+        <input type="color" id="color_favorit" name="color_favorit">
+
+        <label for="telefon">Telefon</label>
+        <input type="tel" id="telefon" name="telefon" pattern="[0-9]{9}">
+
+        <fieldset>
+            <legend>Equip favorit</legend>
+            <input type="radio" id="mario" name="personatge" value="mario">
+            <label for="mario">Mario</label>
+            <input type="radio" id="bowser" name="personatge" value="bowser">
+            <label for="bowser">Bowser</label>
+        </fieldset>
+
+        <label for="newsletter">Marcar per saber si vos ha agradat la pàgina web</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+
+        <br>
+
+        <label for="joc_favorit">Categoria favorita</label>
+        <select id="joc_favorit" name="joc_favorit">
+            <option value="">Selecciona una categoria</option>
+            <option value="classics">Clàssics</option>
+            <option value="carreres">Carreres</option>
+            <option value="aventures3d">Aventures3D</option>
+            <option value="esports">Esports</option>
+            <option value="festa">Festa</option>
+            <option value="retro">Retro</option>
+            <option value="retro">Més d'un dels anteriors mencionats</option>
+        </select>
+
+        <br>
+
+        <label for="missatge">Missatge per enviar</label>
+        <textarea id="missatge" name="missatge" rows="5" required></textarea>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Eliminar tot el insertat al formulari" disabled>
+    </form>
+</main>

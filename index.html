@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="1 cicle superior">
+    <meta name="description" content="Página del proyecto">
+    <link rel="stylesheet" href="css/estil.css">
+    <link rel="stylesheet" href="cssSeccioVideojocs.css">    
+    <link rel="stylesheet" href="SeccioDeVideojocs/VideojocsDeSwitch/cssSeccioJoc.css">
+    <title>Web Fan Super Mario Josep</title>
+    <script src="validacio.js" defer></script>
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-btn">Menu</label>
+
+    <div class="menu-lateral">
+        <button class="close-btn" onclick="document.getElementById('menu-toggle').checked = false;">✖</button>
+        <ul>
+            <li><a href="inici.html" class="nav-link">Inici</a></li>
+            <li><a href="videos.html" class="nav-link">Videos evolució Mario</a></li>
+            <li><a href="horari.html" class="nav-link">Horari Setmanal Jocs</a></li>
+            <li><a href="contacte.html" class="nav-link">Formulari de Contacte</a></li>
+            <li><a href="SeccioDeVideojocs/seccioVideojocs.html" class="nav-link">Secció de Videojocs</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>Super Mario Bros</h1>
+        <img src="imatges/Imagendeinicio.png" alt="Imagen Super Mario" height="350" width="590">
+    </header>
+
+
+    <main id="main-content">
+        <h2>Benvingut a la Web Fan de Super Mario!</h2>
+    </main>
+
+  <div id="usuari-barra"></div>
+
+    <footer>
+        <p>&copy; 2024 Web Fan Super Mario de Josep</p>
+        <a href="#top">Tornar al inici de aquesta pàgina</a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
